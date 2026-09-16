@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T11:46:04+00:00",
+  "generatedAt": "2026-09-16T17:06:15+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 35,
+  "count": 36,
   "items": [
+    {
+      "cveID": "CVE-2026-58704",
+      "vendor": "Google",
+      "product": "Pixel",
+      "name": "Google Pixel Improper Authorization Vulnerability",
+      "description": "Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+      "dateAdded": "2026-09-16",
+      "dueDate": "2026-09-19",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 8.0,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-76461",
       "vendor": "Cisco",
@@ -41,7 +54,7 @@
       "vendor": "ConnectWise",
       "product": "ScreenConnect",
       "name": "ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
-      "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sessions without authorization or host confirmation.",
+      "description": "ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote session without authorization or host confirmation.",
       "dateAdded": "2026-09-11",
       "dueDate": "2026-09-14",
       "ransomware": false,
@@ -54,7 +67,7 @@
       "vendor": "JFrog",
       "product": "Artifactory",
       "name": "JFrog Artifactory Incorrect Authorization Vulnerability",
-      "description": "JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
+      "description": "JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
       "dateAdded": "2026-09-11",
       "dueDate": "2026-09-25",
       "ransomware": false,
@@ -67,7 +80,7 @@
       "vendor": "MikroTik",
       "product": "RouterOS",
       "name": "MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
-      "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escalation.",
+      "description": "MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escalation.",
       "dateAdded": "2026-09-10",
       "dueDate": "2026-09-13",
       "ransomware": false,
@@ -80,7 +93,7 @@
       "vendor": "MikroTik",
       "product": "RouterOS",
       "name": "MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
-      "description": "MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+      "description": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
       "dateAdded": "2026-09-10",
       "dueDate": "2026-09-13",
       "ransomware": false,
