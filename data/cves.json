@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T19:16:52+00:00",
+  "generatedAt": "2026-09-24T22:33:00+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,34 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 34,
+  "count": 36,
   "items": [
+    {
+      "cveID": "CVE-2026-5430",
+      "vendor": "WSO2",
+      "product": "Multiple Products",
+      "name": "WSO2 Multiple Products Path Traversal Vulnerability ",
+      "description": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. ",
+      "dateAdded": "2026-09-24",
+      "dueDate": "2026-09-27",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 10.0,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-71362",
+      "vendor": "Adobe",
+      "product": "Commerce and Magento ",
+      "name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+      "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction. ",
+      "dateAdded": "2026-09-24",
+      "dueDate": "2026-09-27",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 9.1,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-93952",
       "vendor": "Arista",
