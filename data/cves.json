@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T19:00:55+00:00",
+  "generatedAt": "2026-10-29T23:21:44+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,34 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 18,
+  "count": 20,
   "items": [
+    {
+      "cveID": "CVE-2026-97229",
+      "vendor": "GitLab",
+      "product": "Community Edition and Enterprise Edition",
+      "name": "GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "description": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+      "dateAdded": "2026-10-29",
+      "dueDate": "2026-11-01",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 10.0,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-76418",
+      "vendor": "Cisco",
+      "product": "Secure Firewall ASA Software and Cisco Secure FTD Software",
+      "name": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+      "description": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+      "dateAdded": "2026-10-29",
+      "dueDate": "2026-11-01",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 8.6,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-111497",
       "vendor": "Google",
