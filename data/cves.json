@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T19:20:33+00:00",
+  "generatedAt": "2026-11-14T23:13:27+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 24,
+  "count": 19,
   "items": [
     {
       "cveID": "CVE-2026-114713",
@@ -50,19 +50,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-124194",
-      "vendor": "Microsoft",
-      "product": "Office",
-      "name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
-      "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-      "dateAdded": "2026-11-10",
-      "dueDate": "2026-11-24",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-111793",
       "vendor": "Openwave Messaging Limited",
       "product": "Webtop Media Transcoder",
@@ -89,19 +76,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-123158",
-      "vendor": "OpenBSD",
-      "product": "OpenSSH",
-      "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
-      "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
-      "dateAdded": "2026-11-09",
-      "dueDate": "2026-11-12",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 8.1,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-116779",
       "vendor": "SignalWire",
       "product": "FreeSwitch",
@@ -111,7 +85,7 @@
       "dueDate": "2026-11-12",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -124,33 +98,20 @@
       "dueDate": "2026-11-12",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
-      "cveID": "CVE-2026-19868",
-      "vendor": "SonicWall",
-      "product": "SonicOS SSLVPN",
-      "name": "SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability",
-      "description": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).",
-      "dateAdded": "2026-11-06",
-      "dueDate": "2026-11-20",
+      "cveID": "CVE-2026-123158",
+      "vendor": "OpenBSD",
+      "product": "OpenSSH",
+      "name": "OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability",
+      "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
+      "dateAdded": "2026-11-09",
+      "dueDate": "2026-11-12",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2024-27834",
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "name": "Apple Multiple Products Improper Authentication Vulnerability",
-      "description": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
-      "dateAdded": "2026-11-04",
-      "dueDate": "2026-11-18",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 8.1,
       "kev": true
     },
     {
@@ -215,7 +176,7 @@
       "dueDate": "2026-11-10",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.3,
       "kev": true
     },
     {
@@ -271,37 +232,11 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-106931",
-      "vendor": "EG Secure Solutions",
-      "product": "SiteGuard Server Edition",
-      "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "description": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
-      "dateAdded": "2026-10-20",
-      "dueDate": "2026-10-23",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-96656",
-      "vendor": "Plex",
-      "product": "Media Server",
-      "name": "Plex Media Server External Control of File Name or Path Vulnerability",
-      "description": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96655.",
-      "dateAdded": "2026-10-20",
-      "dueDate": "2026-10-23",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-96655",
-      "vendor": "Plex",
-      "product": "Media Server",
-      "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the '/video/:/transcode/universal' path parameter. This vulnerability can be chained with CVE-2026-96652, CVE-2026-96654, and CVE-2026-96656.",
+      "cveID": "CVE-2026-110936",
+      "vendor": "Siemens",
+      "product": "Software Center",
+      "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+      "description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
       "dateAdded": "2026-10-20",
       "dueDate": "2026-11-03",
       "ransomware": false,
