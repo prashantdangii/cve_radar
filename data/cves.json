@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T02:54:32+00:00",
+  "generatedAt": "2026-11-16T11:43:43+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -163,7 +163,7 @@
       "dueDate": "2026-11-10",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.3,
       "kev": true
     },
     {
@@ -219,11 +219,11 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-110936",
-      "vendor": "Siemens",
-      "product": "Software Center",
-      "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-      "description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution with the privileges of the affected application.",
+      "cveID": "CVE-2026-96652",
+      "vendor": "Plex",
+      "product": "Media Server",
+      "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability can be chained with CVE-2026-96654, CVE-2026-96655, and CVE-2026-96656.",
       "dateAdded": "2026-10-20",
       "dueDate": "2026-11-03",
       "ransomware": false,
